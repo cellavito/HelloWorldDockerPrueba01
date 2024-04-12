@@ -5,7 +5,7 @@ FROM openjdk:11
 RUN mkdir /app
 
 # Copy the app files from host machine to image filesystem
-COPY C:\ProgramData\Jenkins\.jenkins\workspace\HelloWorld01 /app
+COPY C:\Users\Vitoc\Desktop\Mierda\ /app
 
 # Set the directory for executing future commands
 WORKDIR /app
