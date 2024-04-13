@@ -11,7 +11,7 @@ pipeline {
         stage('Docker Image en construccion') {
             steps {
                 script {
-                     powershell 'docker build -t holamundo:4.0 .'
+                     powershell 'docker build -t holamundo:5.0 .'
                        }
                    }
         }
