@@ -8,7 +8,7 @@ RUN mkdir /app
 COPY ./. /app
 
 # Set the directory for executing future commands
-WORKDIR /app
+WORKDIR /app/src
 
 # Run the Main class
 CMD java Main
