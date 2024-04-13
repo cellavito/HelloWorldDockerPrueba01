@@ -1,5 +1,5 @@
 # Use the OpenJDK 11 image as the base image
-FROM docker pull openjdk:23-ea-17-jdk-slim-bullseye
+FROM openjdk:23-ea-17-jdk-slim-bullseye
 
 # Create a new app directory for my application files
 RUN mkdir /app
